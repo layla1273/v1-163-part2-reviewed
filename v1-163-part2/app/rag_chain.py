@@ -3,7 +3,7 @@ from operator import itemgetter
 from typing import TypedDict
 
 from dotenv import load_dotenv
-from langchain_community.vectorstores.pgvector import PGVector
+from langchain_community import PGVector
 from langchain.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_core.runnables import RunnableParallel
